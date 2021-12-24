@@ -68,11 +68,11 @@
       "scroll-thumb-border": "darken(@scroll-thumb-bg, 5%)",
       "scroll-thumb-bg": "#c0bcb1",
       "scroll-thumb-bg-light": "@scroll-thumb-bg",
-      "wip-status": "fade(@blue, 60%)",
+      "wip-status": "fade(#8b7e47, 60%)",
       "card__bg": "#FFFFFF",
       "card-shadow": "#C1C5D7",
       // component states
-      "filtering": "fade(@blue, 50%)",
+      "filtering": "fade(@yellow, 50%)",
       "soloing": "fade(@orange, 50%)",
       "checked-out": "fade(@green, 30%)",
       "soloed": "fade(@orange, 30%)",

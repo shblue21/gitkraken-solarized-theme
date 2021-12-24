@@ -1,0 +1,1 @@
+# gitkraken-solarized-theme

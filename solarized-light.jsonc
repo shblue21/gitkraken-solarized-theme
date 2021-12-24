@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "name": "Solarized Light",
+    "scheme": "light" // must be "light" or "dark"
+  },
+  "themeValues": {
+    // values applied to the entire app
+    "root": {
+      "red": "#dc322f",
+      "orange": "#cb4b16",
+      "yellow": "#b58900",
+      "green": "#859900",
+      "blue": "#268bd2",
+      "ltblue": "#2aa198",
+      "app__bg0": "#fdf6e3",
+      "toolbar__bg0": "#eee8d5",
+      "toolbar__bg1": "#fdf6e4",
+      "toolbar__bg2": "lighten(@toolbar__bg1, 2%)",
+      "panel__bg0": "#eee8d6",
+      "panel__bg1": "#d8d4c5",
+      "panel__bg2": "#f0ece1",
+      "input__bg": "@app__bg0",
+      "input-bg-warn-color": "fade(@orange, 60%)",
+      "panel-border": "#ddd6c2",
+      "section-border": "transparent",
+      "subtle-border": "#E6E6E6",
+      "modal-overlay-color": "rgba(200,200,200,.6)",
+      // text colors
+      // values starting with . aren't added to the CSS, they're just variables
+      ".text-color": "#000000",
+      "text-selected": "@.text-color",
+      "text-normal": "fade(@.text-color, 90%)",
+      "text-secondary": "fade(@.text-color, 80%)",
+      "text-disabled": "fade(@.text-color, 70%)",
+      "text-accent": "fade(@red, 15%)",
+      "text-inverse": "#000000",
+      // buttons
+      "btn-text": "@text-selected",
+      "btn-text-hover": "#FFFFFF",
+      "default-border": "@text-normal",
+      "default-bg": "fade(@yellow, 20%)",
+      "default-hover": "transparent",
+      "default-border-hover": "@text-selected",
+      "primary-border": "#d2af88",
+      "primary-bg": "fade(#eee8d6, 15%)",
+      "primary-hover": "fade(#d2cdbf, 80%)",
+      "success-border": "@green",
+      "success-bg": "fade(@green, 15%)",
+      "success-hover": "fade(@green, 80%)",
+      "warning-border": "@orange",
+      "warning-bg": "fade(@orange, 15%)",
+      "warning-hover": "fade(@orange, 80%)",
+      "danger-border": "@red",
+      "danger-bg": "fade(@red, 15%)",
+      "danger-hover": "fade(@red, 80%)",
+      // states
+      "hover-row": "#eae0c1",
+      "danger-row": "fade(@red, 60%)",
+      "selected-row": "#d1cbb9",
+      "warning-row": "fade(@orange, 60%)",
+      "droppable": "fade(@yellow, 30%)",
+      "drop-target": "fade(@green, 50%)",
+      "input--disabled": "fade(#000000, 5%)",
+      "link-color": "#005C95",
+      "form-control-focus": "@blue",
+      // various app elements
+      "code-bg": "@app__bg0",
+      "scroll-thumb-border": "darken(@scroll-thumb-bg, 5%)",
+      "scroll-thumb-bg": "#c0bcb1",
+      "scroll-thumb-bg-light": "@scroll-thumb-bg",
+      "wip-status": "fade(@blue, 60%)",
+      "card__bg": "#FFFFFF",
+      "card-shadow": "#C1C5D7",
+      // component states
+      "filtering": "fade(@blue, 50%)",
+      "soloing": "fade(@orange, 50%)",
+      "checked-out": "fade(@green, 30%)",
+      "soloed": "fade(@orange, 30%)",
+      "added-line": "fade(@green, 15%)",
+      "deleted-line": "fade(@red, 15%)",
+      "filter-match": "fade(@blue, 50%)",
+      "toolbar__prompt": "fade(@blue, 20%)",
+      "clone__progress":  "fade(@blue, 70%)",
+      "modified-line": "fade(#000000, 20%)",
+      "verified": "fade(@green, 30%)",
+      "unverified": "fade(#000000, 7%)",
+      "drop-sort-border": "@green",
+      // terminal
+      "terminal__repo-name-color": "rgba(0,0,0,.6)",
+      "terminal__repo-branch-color": "rgba(0,0,0,.6)",
+      "terminal__repo-tag-color": "rgba(0,0,0,.6)",
+      "terminal__repo-upstream-color": "rgba(0,0,0,.6)"
+    },
+    // override specific values just for the toolbar
+    "toolbar": {
+      "text-selected": "rgba(0,0,0,.9)",
+      "text-normal": "rgba(0,0,0,.9)",
+      "text-secondary": "rgba(0,0,0,.6)",
+      "text-disabled": "#aea99e",
+      "input__bg": "rgba(0,0,0,.20)",
+      "link-color": "#40c5ec",
+      "btn-text": "var(--text-normal)"
+    },
+    // override specific values just for the tabs bar
+    "tabsbar": {
+      "text-selected": "rgba(0,0,0,.7)",
+      "text-normal": "rgba(0,0,0,.9)",
+      "text-secondary": "rgba(0,0,0,.8)",
+      "text-disabled": "rgba(0,0,0,.9)"
+    }
+  }
+}

@@ -1,4 +1,4 @@
-# Gitkraken Solarized theme
+# GitKraken Solarized theme
 
 > gitkraken solarized theme.
 

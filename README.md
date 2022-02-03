@@ -1,12 +1,10 @@
 # GitKraken Solarized theme
 
-> gitkraken solarized theme.
+> Gitkraken solarized theme.
 
 ![screen shot](https://raw.githubusercontent.com/shblue21/gitkraken-solarized-theme/main/gitkraken-solarized-theme.png)
 
-### Install
-
------------------------
+## Install
 
 - Copy [solarized-light.jsonc](https://raw.githubusercontent.com/shblue21/gitkraken-solarized-theme/main/solarized-light.jsonc) file to
   
@@ -16,9 +14,8 @@
 
 
 
-### To-do
+## To-do
 
-----------------
 
 - Check backward compatibility
 

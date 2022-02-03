@@ -12,6 +12,12 @@
   
   - Linux : ~/.gitkraken/themes 
 
+- Preferences -> UI Customization
+
+- or Shortcut Ctrl + P (or ⌘ P), Typing switch theme,
+
+- Select Solarized Light.
+
 
 
 ## To-Do

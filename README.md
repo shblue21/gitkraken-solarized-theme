@@ -2,7 +2,7 @@
 
 > Gitkraken solarized theme.
 
-![screen shot](https://raw.githubusercontent.com/shblue21/gitkraken-solarized-theme/main/gitkraken-solarized-theme.png)
+![ScreenShot](https://raw.githubusercontent.com/shblue21/gitkraken-solarized-theme/main/gitkraken-solarized-theme.png)
 
 ## Install
 
@@ -14,7 +14,7 @@
 
 
 
-## To-do
+## To-Do
 
 
 - Check backward compatibility

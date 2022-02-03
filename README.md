@@ -1,6 +1,6 @@
 # GitKraken Solarized theme
 
-> GitKraken solarized theme.
+> GitKraken Solarized theme.
 
 ![ScreenShot](https://raw.githubusercontent.com/shblue21/gitkraken-solarized-theme/main/gitkraken-solarized-theme.png)
 
